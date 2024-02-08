@@ -17,3 +17,9 @@ Configuración del entorno de desarrollo y ejemplos de desarrollo con React Nati
 [Ver sesión 1](https://youtu.be/ZQCzDc0Xqb8)
 
 ___
+
+### Sesión 2 - Ejemplo de states
+
+Resolviendo dudas de la configuración del entorno. Usando useState y useEffect para manejar estados.
+
+[Ver sesión 2](https://youtu.be/jtRYouI1HYw)
