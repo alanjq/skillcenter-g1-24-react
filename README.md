@@ -23,3 +23,11 @@ ___
 Resolviendo dudas de la configuración del entorno. Usando useState y useEffect para manejar estados.
 
 [Ver sesión 2](https://youtu.be/jtRYouI1HYw)
+
+___
+
+### Sesión 3 - Uso de _state_, _effect_ y listas de componentes
+
+Usando useEffect, useState y ejemplo de componentes con listas.
+
+[Ver sesión 3](https://youtu.be/U0jtSuWPtGo)
