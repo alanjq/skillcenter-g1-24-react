@@ -46,3 +46,10 @@ ___
 Usando Contexto, estados y props
 
 [Ver sesión 5](https://youtu.be/ZI7OkiP7ua4)
+___
+
+### Sesión 6 - Consumir servicios usando Fetch
+
+Usando Contexto, estados y props para combinarlo con el método fetch.
+
+[Ver sesión 6](https://youtu.be/_YnmlyntMq0)
