@@ -53,3 +53,8 @@ ___
 Usando Contexto, estados y props para combinarlo con el método fetch.
 
 [Ver sesión 6](https://youtu.be/_YnmlyntMq0)
+
+### Sesión 7 - Pruebas usando jest
+
+[Ver sesión 7](https://youtu.be/7JhKgsOZhKw)
+___
