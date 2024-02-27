@@ -7,8 +7,8 @@ export default function CreatePost() {
             method: 'delete'
         })
             .then((response) => response.json())
-            .then(resultado => console.log('resultado DELETE', resultado))
-            .catch((error) => console.log(error))
+            .then(resultado => resultado)
+            .catch((error) => error)
     }
 
     return <div>

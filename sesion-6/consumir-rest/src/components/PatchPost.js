@@ -6,17 +6,15 @@ export default function PatchPost() {
             method: 'patch',
             headers: {
                 "Content-Type": "application/json",
-                'charset':'UTF-8'
+                'charset': 'UTF-8'
             },
             body: JSON.stringify({
                 title: 'Buenas noches. Método Patch'
             })
         })
             .then((response) => response.json())
-            .then((json) => console.log('resultado PATCH', json))
-            .catch((error) => {
-                console.log(error);
-            })
+            .then((json) => json)
+            .catch((error) => error)
     }
 
 

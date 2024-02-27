@@ -1,8 +1,8 @@
 import { useContext } from "react"
 import TimesContext from "../context/TimesContext"
 
-export default function WelcomeMessage() {
-    const {TIMES, time} = useContext(TimesContext)
+export default function WelcomeMessage({ defaultTime }) {
+    const { TIMES, time } = useContext(TimesContext)
     // console.log('valores disponibles', contexto);
 
     // return null
@@ -10,5 +10,5 @@ export default function WelcomeMessage() {
     //     return null
     // }
 
-    return <div style={TIMES[time].style}>{TIMES[time].message}</div>
+    return <div style={TIMES[time].style}>{defaultTime}</div>
 }

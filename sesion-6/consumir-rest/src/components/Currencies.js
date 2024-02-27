@@ -12,13 +12,11 @@ export default function Currencies() {
             .then(response => response.json())
             .then((json) => json.bpi)
             .then(curre => {
-                console.log(curre);
                 setCurrencies(curre)
             })
     }, [])
 
     return <div>
-        <h2>Currencies</h2>
         <Currency {...currencies['EUR']} />
         <Currency {...currencies['GBP']} />
         <Currency {...currencies['USD']} />

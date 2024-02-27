@@ -21,8 +21,8 @@ export default function CreatePost() {
             }),
         })
             .then((response) => response.json())
-            .then(resultado => console.log('resultado POST', resultado))
-            .catch((error) => console.log(error))
+            .then(resultado => resultado)
+            .catch((error) => error)
     }
 
     return <div>

@@ -11,7 +11,7 @@ function App() {
     <TimesContext.Provider value={{ setTime, time, TIMES }}>
       <div>
         <TimeSwitcher />
-        <Greeting name="Alan" />
+        <Greeting name="Alan" time='day' />
         <Greeting name="Santiago" />
         <Greeting name="Paola" />
         <Greeting name="Enedelia" />
